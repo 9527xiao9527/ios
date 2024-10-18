@@ -1,5 +1,4 @@
 /*************************************
-获取成功后，xxxx替换自己信息
 
 [rewrite_local]
 https://alsc-config.ele.me/api/config/app/route url script-request-header https://raw.githubusercontent.com/9527xiao9527/ios/refs/heads/main/elm.js
