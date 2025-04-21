@@ -1074,7 +1074,7 @@ class UserInfo {
       };
         let _0x3273a8 = await this.fetch(_0x40283e);
         // 假设响应是文本类型
-        _0x3273a8 = await _0x3273a8.text(); 
+       // _0x3273a8 = await _0x3273a8.text(); 
 
         // 使用正则表达式匹配 JSON 数据
         const jsonRegex = /\{.*\}/s; 
