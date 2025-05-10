@@ -1,6 +1,6 @@
 {
-  "id": "yourusername.wxlinkboxjs",
-  "name": "企业链接提取",
+  "id": "ai",
+  "name": "企业提取",
   "author": "ai",
   "repo": "https://github.com/yourusername/wxlink-boxjs",
   "apps": [
@@ -14,7 +14,13 @@
           "name": "企业链接",
           "type": "textarea",
           "val": "",
-          "desc": "通过 Quantumult X 脚本自动提取保存（去重）"
+          "desc": "自动提取保存"
+        },
+        {
+          "id": "clear_wx_ca_links",
+          "name": "🗑 一键清空链接",
+          "type": "button",
+          "action": "boxjs.data.remove('wx_ca_links')"
         }
       ]
     }
