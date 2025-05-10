@@ -1,0 +1,11 @@
+{
+  "configs": [
+    {
+      "id": "wx_ca_links",
+      "name": "企链接",
+      "desc": "通过圈X重写脚本自动提取保存",
+      "type": "textarea",
+      "defaultValue": ""
+    }
+  ]
+}
