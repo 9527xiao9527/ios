@@ -1,11 +1,22 @@
 {
-  "configs": [
+  "id": "yourusername.wxlinkboxjs",
+  "name": "企业链接提取",
+  "author": "ai",
+  "repo": "https://github.com/yourusername/wxlink-boxjs",
+  "apps": [
     {
       "id": "wx_ca_links",
-      "name": "企链接",
-      "desc": "通过圈X重写脚本自动提取保存",
-      "type": "textarea",
-      "defaultValue": ""
+      "name": "企业链接",
+      "keys": ["wx_ca_links"],
+      "settings": [
+        {
+          "id": "wx_ca_links",
+          "name": "企业链接",
+          "type": "textarea",
+          "val": "",
+          "desc": "通过 Quantumult X 脚本自动提取保存（去重）"
+        }
+      ]
     }
   ]
 }
